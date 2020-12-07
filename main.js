@@ -39,7 +39,7 @@ function update() {
     
     // Na primeira execução, 0 é menor que 2, então passa e adiciona a classe "active" ao primeiro item de circles
     // Depois, 1 é menor que 2, então também passa e adiciona a classe ao segundo item
-    // Já o index 2 não é menor igual a 2, então vai para else. E o index seguinte também (3) não passa, estilizando somente o índice 0 e 1.
+    // Já o index 2 não é menor, é igual a 2, então vai para else. E o index seguinte também (3) não passa, estilizando somente o item do índice 0 e 1.
     if (index < currentActive) {
       // Adiciona a classe "active" a "circle"
       circle.classList.add("active");
